@@ -15,7 +15,7 @@ nav {
    margin: 0 auto;
    margin-bottom: 20px;
     display: flex;
-    padding: 10px;
+    padding: 0px;
     border-radius: 10px 100px / 120px;
 }
 h1 {
@@ -37,8 +37,9 @@ h1 {
 a {
     text-decoration:none;
     color: #E2EB98;
-    margin: 25px 50px;
+    margin: 25px;
     font-family: 'time new roman';
+    align-items: center;
     
 }
 
@@ -49,7 +50,7 @@ main {
 }
 .sidebar {
     margin-right: 25px;
-    padding: 10px;
+    padding: 0px;
 }
 .sidebar-img {
     width: 250px;
@@ -62,10 +63,23 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 10px #fff;
-    padding: 13px;
+    padding: 2px;
+    
 }
 h2, h3 {
-    margin: 10px;
+    margin-bottom: 5px;
+    color:#48304D;
+    font-family: 'time new roman';
 }
 
+p {
+    font-family: 'times new roman';
+    font-style: italic;
+    color: #A44A3F;
+    margin: 5px;
+}
+ul {
+    font-family: 'times new roman';
+    color: #A44A3F;
+    list-style-type: upper-roman;
+}
