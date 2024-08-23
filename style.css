@@ -83,3 +83,15 @@ ul {
     color: #A44A3F;
     list-style-type: upper-roman;
 }
+#Portfolio {
+    text-decoration: underline;
+    color:beige;
+}
+#name {
+    color:#E2EB98;
+    padding: 0px;
+}
+#list {
+    color:#48304D;
+    font-style: italic;
+}
