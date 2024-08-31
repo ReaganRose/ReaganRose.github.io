@@ -41,7 +41,9 @@ header {
     margin: auto;
     justify-content: space-between;
     display: flex;
+    font-size: 12px;
 }
+
 
 
 /* main container area beneath menu */
@@ -49,16 +51,23 @@ main {
     margin: center;
     background: #d9d0bd;
     display: flex;
-    width: 50 px;
+    margin: auto;
+    width: 50%;
+    border-radius: 57px;
+    box-shadow: 15 px 15px 31px #2d2b27;
+    box-shadow: -15px -15px 31px #2d2b27;
+    
 }
-.sidebar {
-    margin-right: 10px;
-    padding: 0px;
+.sidebar{
+    margin-right: 25px;
+    display: flex;
 }
-.sidebar-img {
+.sidebar-img1{
+    border-radius: 57px;
     width: 200px; 
-   
 }
+
+
 .content {
     flex: 1;
     padding: 15px;
@@ -69,25 +78,31 @@ main {
     padding: 0px;
     
 }
-h2, h3 {
-    margin-bottom: 10px;
+h1{
+    margin-bottom: 1px;
     text-align: center; 
-    color:#662507;
+    color:#4f1d05;
     font-family: 'time new roman';
 }
-
+h3,h4 {
+    margin-bottom: 10px;
+    text-align: auto; 
+    color:#99582c;
+    font-family: 'time new roman';
+    
+}
 p {
     font-family: 'times new roman';
     font-style: italic;
-    color: #b97453;
+    color: #5474a1;
     margin: 5px;
     text-align: center;
 }
 ul {
     font-family: 'times new roman';
-    color: #A44A3F;
-    list-style-type: upper-roman;
-    text-align: center;
+    color: #b8653e;
+    list-style-type: none;
+    text-align: auto;
 }
 #Portfolio {
     text-decoration: underline;
@@ -106,10 +121,27 @@ ul {
     margin: auto;
   width: 50%;
 }
- #abt {
-    text-decoration: underline;
-    font-style: italic;
-    font-family: 'Times New Roman';
-    text-align: center;
-    color: #b97453;
- }
+ 
+footer{
+    margin: center;
+    background: #d9d0bd;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    border-radius: 57px;
+    box-shadow: 15 px 15px 31px #2d2b27;
+    box-shadow: -15px -15px 31px #2d2b27;
+    margin-top: 10px;
+   
+}
+.space{
+  border-radius: 57px;  
+  width:200px; 
+  display: block;
+}
+h2{
+    margin-bottom: 1px;
+    text-align: center; 
+    color:#4f1d05;
+    font-family: 'time new roman';
+}
