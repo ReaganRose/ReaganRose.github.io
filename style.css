@@ -10,16 +10,19 @@ body {
 }
 
 /* navigation menu */
+
 nav {
     background: #d9d0bd;
-   margin: 50 fixed;
+   margin: 10 fixed;
    margin-bottom: 20px;
     display: center;
     padding: 0px;
-    border-radius: 10px 10px / 100px;
+    border-radius: 57px;
     width: 100%;
+    box-shadow: 15 px 15px 31px #2d2b27;
+    box-shadow: -15px -15px 31px #b1a6a6;
 }
-h1 {
+header {
     display: flex;
     align-items: center;
     color: #662507;
@@ -27,29 +30,26 @@ h1 {
     margin: 25px 50px;
     display: flex;
     padding: 10px;
+    font-size: 25px;
+    font-style: 15px bold;
 }
-#nav-ul {
-    list-style-image: none;
-}
-.nav-li {
-    display: inline-block;
-    padding: 0 10px;
-}
-a {
-    text-decoration:none;
+.nav {
+    text-align: center;
     color: #b97453;
-    margin: 50px;
+    padding: 0px;
     font-family: 'time new roman';
-    align-items: right;
-    
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
 }
+
 
 /* main container area beneath menu */
 main {
     margin: center;
     background: #d9d0bd;
     display: flex;
-    width: 100%;
+    width: 50 px;
 }
 .sidebar {
     margin-right: 10px;
@@ -66,7 +66,7 @@ main {
 
 /* portfolio styles */
 #interests {
-    padding: 2px;
+    padding: 0px;
     
 }
 h2, h3 {
@@ -103,12 +103,13 @@ ul {
 }
 
 .center1 {
-  margin: auto;
-  width: 50%
+    margin: auto;
+  width: 50%;
 }
  #abt {
     text-decoration: underline;
     font-style: italic;
     font-family: 'Times New Roman';
-
+    text-align: center;
+    color: #b97453;
  }
