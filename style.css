@@ -5,9 +5,9 @@ body {
     font-family: arial;
 }
 #all-contents {
-  max-width: 800px;
-    margin: auto;
-}
+    max-width: 800px;
+      margin: auto;
+  }
 
 /* navigation menu */
 
@@ -109,12 +109,14 @@ ul {
     color:beige;
 }
 #name {
-    color:#E2EB98;
+    color:#662507;
     padding: 0px;
 }
 #list {
     color:#48304D;
     font-style: italic;
+    text-align: center;
+    text-indent: 50px;
 }
 
 .center1 {
@@ -145,3 +147,11 @@ h2{
     color:#4f1d05;
     font-family: 'time new roman';
 }
+
+.sun {
+    border-radius: 57px;  
+    width:200px; 
+    display: block;
+    display: center;
+}
+
