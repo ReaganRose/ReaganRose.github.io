@@ -92,7 +92,7 @@ let animationDetails = {};
 
 var collectableList = {
   database: { image: "images/collectables/database.png" },
-  diamond: { image: "images/collectables/diamond-head.png" },
+  diamond: { image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAPlJREFUWEftlr0RwjAMRpNx6BmAjgFgEArGoGAQGIAuA9AzTjgdJ85xLH+ScGI4kjanvKefWG6byk9bmd8sAr9XgdV630tz87hfzAmpA3LgWMgiAgUsYI9IVuATOMugaogCJeAaiaRASTiSmEXgvBn+ONvT9c0dCUyRfViF23HX/6dA2IZZKyCBuS2TzEA8dIfuhUmdCSMBGhIO0NwVYhjFSPFZAQLngmMZBltkoQANR+o3tGSZqxoUoOBQwpOldVUPZoDbwB+xlBfNi7SUvnMZcTYljmX3Oi4hgeDEgDcij4gGLJ6EaJiqXUqRmPe9ugVeAIpbBKpX4An7RoAh7ZceewAAAABJRU5ErkJggg==" },
   grace: { image: "images/collectables/grace-head.png" },
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
