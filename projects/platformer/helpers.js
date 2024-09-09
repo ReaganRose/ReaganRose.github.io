@@ -368,14 +368,14 @@ function deathOfPlayer() {
   ctx.fillStyle = "white";
   ctx.font = "500% Times New Roman";
   ctx.fillText(
-    "Oh No! Try Again!!",
+    "R.I.P!! Try Again!!",
     canvas.width / 4,
     canvas.height / 6 + canvas.height / 5,
     (canvas.width / 16) * 14
   );
   ctx.font = "400% serif";
   ctx.fillText(
-    "Hit any key to restart",
+    "Hit L to restart",
     canvas.width / 4,
     canvas.height / 6 + canvas.height / 3,
     (canvas.width / 16) * 14

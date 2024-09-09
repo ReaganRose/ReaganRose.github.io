@@ -91,9 +91,9 @@ let halleImage;
 let animationDetails = {};
 
 var collectableList = {
-  database: { image: "images/collectables/database.png" },
+  database: { image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAJ1JREFUWEftlssNgCAQRKFH7zZhGTbhnR41HEgMEphZMHAYC3Aeb4ePd5M/PznfCUAGrAbuvLzbcRX7HM69msECfIJ7QRiAZniCYWygAHB4DaI0DgSADmcglgcwrx610DIgABmIXTJbKB1I+VnQKuESACYIZPXxx4iBtKXhUfxxF8AQTDhr4H3zTnsPDH9EMx0YHt4zgmEwMiADMvAAJ3lEIWKgbcsAAAAASUVORK5CYII=" },
   diamond: { image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAPlJREFUWEftlr0RwjAMRpNx6BmAjgFgEArGoGAQGIAuA9AzTjgdJ85xLH+ScGI4kjanvKefWG6byk9bmd8sAr9XgdV630tz87hfzAmpA3LgWMgiAgUsYI9IVuATOMugaogCJeAaiaRASTiSmEXgvBn+ONvT9c0dCUyRfViF23HX/6dA2IZZKyCBuS2TzEA8dIfuhUmdCSMBGhIO0NwVYhjFSPFZAQLngmMZBltkoQANR+o3tGSZqxoUoOBQwpOldVUPZoDbwB+xlBfNi7SUvnMZcTYljmX3Oi4hgeDEgDcij4gGLJ6EaJiqXUqRmPe9ugVeAIpbBKpX4An7RoAh7ZceewAAAABJRU5ErkJggg==" },
-  grace: { image: "images/collectables/grace-head.png" },
+  grace: { image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAP9JREFUWEftls0NwjAMhekoLNAROLMIQzABQ7AIZ0ZgAUahCpIl1/J/HCGk9NY2jT8/+zldDj++Fin+43L6tHfn+1NcU8FuAkCQUSBqdqACzrQaxJR3NAQLQOvPQVT1hwqA6y9B9IK4mxD3wXo9fm9ft/fOCJn+6AKogHC5QMoYnmOQqAohAC5jzzDSoNw2lFTwAGjDzA0QCaStpWqYAG0zzYIZMAxRBoAbEkNRq9K54QKwVJCCA4gG4QaAzWg5rOASBJRhAvy/Aq3GVh+UNqHkiOE2xN7uHUzhQcRNuyxEahRbv+7eccydimEXZNToOo692WXXlSiQDd6+mwBTgQ3JjpYhSL/KSAAAAABJRU5ErkJggg==" },
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
   steve: { image: "images/collectables/steve-head.png" },

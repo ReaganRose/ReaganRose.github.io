@@ -91,12 +91,12 @@ h3,h4 {
     font-family: 'time new roman';
     
 }
-p {
+.p {
     font-family: 'times new roman';
-    font-style: italic;
+    
     color: #5474a1;
     margin: 5px;
-    text-align: center;
+    text-align: left;
 }
 ul {
     font-family: 'times new roman';
@@ -138,20 +138,24 @@ footer{
 }
 .space{
   border-radius: 57px;  
-  width:200px; 
-  display: block;
+  width:230px; 
+  height: 350px;
 }
 h2{
     margin-bottom: 1px;
     text-align: center; 
     color:#4f1d05;
     font-family: 'time new roman';
+    
 }
 
 .sun {
     border-radius: 57px;  
-    width:200px; 
-    display: block;
-    display: center;
+    width:230px; 
+    height: 350px;
+    
 }
-
+.dotted {
+    border-style: dotted;
+    column-rule-style: dotted;
+  }
