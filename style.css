@@ -86,9 +86,10 @@ h1{
 }
 h3,h4 {
     margin-bottom: 10px;
-    text-align: auto; 
+    text-align: center; 
     color:#99582c;
     font-family: 'time new roman';
+
     
 }
 .p {
@@ -96,7 +97,7 @@ h3,h4 {
     
     color: #5474a1;
     margin: 5px;
-    text-align: left;
+    text-align: center;
 }
 ul {
     font-family: 'times new roman';
@@ -125,7 +126,7 @@ ul {
 }
  
 footer{
-    margin: center;
+    
     background: #d9d0bd;
     display: flex;
     margin: auto;
@@ -137,9 +138,9 @@ footer{
    
 }
 .space{
-  border-radius: 57px;  
-  width:230px; 
-  height: 350px;
+  border-radius: 42px;  
+  width:265px; 
+  height: 365px;
 }
 h2{
     margin-bottom: 1px;
@@ -150,9 +151,11 @@ h2{
 }
 
 .sun {
-    border-radius: 57px;  
-    width:230px; 
-    height: 350px;
+    border-radius: 42px;  
+    width:290px; 
+    height: 365px;
+    border-right-width: 100px;
+    
     
 }
 .dotted {
